@@ -1,0 +1,50 @@
+@use '../variables'
+@use '../mixins'
+
+#information-container
+    @include mixins.center
+    flex-direction: column
+    background-color: variables.$bg-color-secondary
+    padding: 1rem
+    text-align: left
+    width: 80%
+    border-radius: variables.$card-border-radius
+
+    .info-card
+        @include mixins.center
+        justify-content: start
+        gap: .5rem
+        width: 100%
+
+        &:not(:last-child)
+            padding-bottom: .8rem
+            margin-bottom: .8rem
+            border-bottom: 1px solid #444
+
+        h3
+            color: variables.$text-color-secondary
+            font-size: .8rem
+            margin-bottom: .5rem
+
+        p
+            color: variables.$text-color
+            font-weight: bold
+
+        .phone-icon, .email-icon, .pin-icon
+            width: 2rem
+            height: 2rem
+            padding: .4rem
+            display: flex
+            align-items: center
+            justify-content: center
+            background-color: variables.$bg-color
+            border-radius: variables.$card-border-radius
+
+        .phone-icon
+            color: #e93b81
+
+        .email-icon
+            color: #6ab5b9
+
+        .pin-icon
+            color: #c17ceb

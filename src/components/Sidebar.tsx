@@ -4,7 +4,7 @@ import { SocialNetwork } from "./SocialNetwork";
 
 import "../styles/components/sidebar.sass";
 
-import Avatar from "../assets/img/profile_picture_not_found.png";
+import Avatar from "../assets/img/profile_picture.jpg";
 const Sidebar = () => {
   return (
     <aside id='sidebar'>

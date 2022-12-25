@@ -4,7 +4,7 @@ import "./styles/components/app.sass";
 function App() {
   return (
     <div id='portfolio'>
-      <h1>Hello World!</h1>
+      <h1>João Pedro</h1>
       <Sidebar />
       <MainContent />
     </div>

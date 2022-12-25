@@ -24,14 +24,14 @@ export function ContactInformation() {
       iconID: "email-icon",
       icon: <AiOutlineMail />,
       propTitle: "Email",
-      propValue: "some@example.com",
+      propValue: "joaopedro@example.com",
     },
     {
       divClassName: "info-card",
       iconID: "pin-icon",
       icon: <AiFillEnvironment />,
       propTitle: "Localização",
-      propValue: "Earth",
+      propValue: "Brasil",
     },
   ];
 

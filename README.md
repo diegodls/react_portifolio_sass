@@ -28,7 +28,7 @@
 </p>
 
 ## :computer: Projeto
-Projeto para colocar em prática os conhecimento em ReactJs + Sass.</br>
+Projeto de um portfólio simples para mostrar os dados do usuário, tecnologias dominadas e projetos já feito.</br>
 
 
 ## :zap: Tecnologias</h2>
